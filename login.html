@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="estilologin.css" rel="stylesheet">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type='text/javascript' src='script.js'></script>
+    <title>Login</title>
+    <link rel="shortcut icon" href="assets/img/db.png">
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+          <!-- Tabs Titles -->
+      
+          <!-- Icon -->
+          <div class="fadeIn first">
+            <img src="assets/img/db.png" id="icon" alt="User Icon" />
+            <h5>MySqlDB Remote</h5>
+           
+          </div>
+      
+          <!-- Login Form -->
+          <form>
+            <input type="text" id="email" class="fadeIn second" placeholder="Usuario">
+            <input type="password" class="form-control pass" id="pass" placeholder="Contraseña">
+            <input type="button" id="btnlogin" onclick="val_login();" class="fadeIn fourth" value="Iniciar sesión"></input>
+            <div id="loading" style="display: none;">
+              <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+            </div>
+          </form>
+      
+          <!-- Remind Passowrd -->
+          <div id="formFooter">
+            <a class="underlineHover" href="registrar.html">Registrarse</a>
+          </div>
+      
+        </div>
+      </div>
+      <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
+
